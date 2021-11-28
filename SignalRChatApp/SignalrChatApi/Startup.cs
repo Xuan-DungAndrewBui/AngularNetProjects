@@ -39,7 +39,7 @@ namespace SignalrChatApi
                 builder =>
                 {
                     builder.AllowAnyMethod().AllowAnyHeader()
-                        .WithOrigins("http://localhost:4201")
+                        .WithOrigins("http://localhost:4200")
                         .AllowCredentials();
                 }));
         }
